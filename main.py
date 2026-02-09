@@ -1,6 +1,8 @@
 from module import Pet
 
+
 p = Pet("Buddy")
+
 
 print(p.status())
 print(p.feed(10))

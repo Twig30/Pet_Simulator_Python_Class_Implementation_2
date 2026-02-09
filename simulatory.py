@@ -16,7 +16,7 @@ while True:
         print(pet.play(amount))
     elif command == "Sleep":
         amount = input ("How long to sleep? ")
-        print(pet.sleep(amount))()
+        print(pet.sleep(amount))
     elif command == "Check Health":
         print(pet.check_health())
     elif command == "Status":
