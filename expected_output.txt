@@ -1,0 +1,6 @@
+Buddy | Hunger: 40 | Happiness: 50 | Energy: 50
+Buddy eats and reduces hunger by 10.
+Buddy plays and gains 15 happiness but loses 15 energy.
+Buddy | Hunger: 40 | Happiness: 65 | Energy: 35
+Buddy sleeps and gains 20 energy.
+Buddy | Hunger: 40 | Happiness: 65 | Energy: 55
