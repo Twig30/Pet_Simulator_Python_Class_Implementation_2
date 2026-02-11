@@ -5,7 +5,7 @@ name = input("Enter a name for your pet: ")
 pet = Pet(name)
 
 while True:
-    print("Commands: Feed | Play | Sleep | Check Health | Status | Quit ")
+    print("Commands: Feed | Play | Sleep | Check Health | Status| Rename | Quit ")
     command = input("What would you like to do next? ")
 
     if command == "Feed":
@@ -21,6 +21,9 @@ while True:
         print(pet.check_health())
     elif command == "Status":
         print(pet.status())
+    elif command == "Rename":
+        name = input("what name would you like to rename your pet to?")
+        pet.name = name 
     elif command == "Quit":
         print("Quitting the simulator")
         break
